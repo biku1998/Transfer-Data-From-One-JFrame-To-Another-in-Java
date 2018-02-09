@@ -48,7 +48,7 @@ public class DataTransferFromOneFrameToAnother  extends JFrame implements Action
          dataShow =  new JTextField();
          dataShow.setBounds(60,50,190,35);
          reciver.add(dataShow);
-         dataShow.setText(this.dataHolder.getText());
+         dataShow.setText(this.dataHolder.getText()); // getting the data of first frame and setting into next frame.
 
 
 
